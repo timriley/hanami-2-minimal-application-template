@@ -1,0 +1,15 @@
+# Installation
+/Brewfile.lock.json
+
+# Application settings (*.local files only, all other files are checked in)
+/.env*.local
+
+# Tests
+/spec/examples.txt
+/coverage
+
+# Assets
+/yarn-error.log
+/node_modules
+/public/assets
+/.assets/tmp/*

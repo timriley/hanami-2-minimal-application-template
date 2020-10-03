@@ -1,0 +1,13 @@
+#!/usr/bin/env ruby
+# frozen_string_literal: true
+
+# bin/app - Example CLI invocation of the app, using `Hanami.boot(web: false)` to
+# demonstrate Hanami 2 as a useful framework for non-web applications
+
+require "bundler/setup"
+require "hanami/init"
+
+Hanami.boot(web: false)
+
+# Invoke your application code here...
+Hanami.application.keys.inspect
